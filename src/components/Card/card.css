@@ -1,0 +1,33 @@
+.card {
+	height: 27rem;
+	width: 20rem;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	transition: transform 250ms ease-in-out;
+}
+
+.card:hover {
+	transform: translateY(-.5rem);
+}
+
+.card-image-container {
+	height: 20rem;
+	width: 20rem;
+}
+
+.card-text-container {
+	height: 5rem;
+	margin: 1rem;
+}
+
+.card-image {
+	height: 20rem;
+	width: 20rem;
+}
+
+.card-title,
+.card-subtitle,
+.card-date {
+	margin: 0;
+}

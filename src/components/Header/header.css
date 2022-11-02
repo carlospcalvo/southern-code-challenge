@@ -1,0 +1,26 @@
+.app-header {
+	height: max(6vh, 3rem);
+	/* min-height: 3rem; */
+	min-width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #242424;	
+	color: white;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+
+.app-header > h1 {
+	font-size: 2rem;
+	line-height: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.app-header > h1 {
+	font-size: 1rem;
+		line-height: 1;
+	}
+}
